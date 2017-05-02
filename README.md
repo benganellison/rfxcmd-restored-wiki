@@ -33,24 +33,11 @@ To be able to communicate with the RFXCom the serial library needs to be install
 
     $ apt-get install python-serial
 
-### Create directory for RFXcmd
+### Clone the RFXcmd repo
 
-You can freely choose the directory, it can be in user home directory or as in example in /opt
+To your home directory or wherever you fancy (original docs put it in `/opt/rfxcmd`)
 
-    $ mkdir /opt/rfxcmd
-    $ cd /opt/rfxcmd
-
-### Download RFXcmd and unzip
-
-Check the latest version on the [download page][1], the example below might not be the latest.
-
-    $ wget http://rfxcmd.eu/?wpdmdl=112 -O rfxcmd.zip
-    $ wget http://rfxcmd.eu/?wpdmdl=213 -O rfxcmd.zip
-
-
-This will download the RFXcmd v0.3-Alpha3 and save it as 'rfxcmd.zip'. Unzip the files.
-
-    $ unzip rfxcmd.zip
+    $ git clone https://github.com/digiltd/rfxcmd.git
 
 ### Find the RFXcom device
 
