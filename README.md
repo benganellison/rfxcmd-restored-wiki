@@ -1,5 +1,6 @@
 # rfxcmd
 
+A forked version of https://github.com/ssjoholm/rfxcmd. The only change made is the addition of installation instructions to this readme. All credit for the actual functionality goes to [Sebastian Sjoholm](https://github.com/ssjoholm)
 
 ## Description
 
@@ -9,23 +10,15 @@ RFXcmd is Python script that interfaces the RFX USB devices from RFXcom http://w
 
 www.rfxcmd.eu seems to be down, installation instructions for Linux have been added below.
 
-
 ## Requirements
 
-- Python 2.7, does not work with Python 3.x
-- Tested on Raspberry Pi (Debian Squeezy) with Python 2.6
-- Tested on Mac OSX 10.8.2 with Python 2.7.2
-- Tested with RFXCOM device RFXtrx433-USB (v2.1)
+Python 2.7, **does not work with Python 3.x**
+
+----
 
 ## Installation: Linux
 
 Details how to install RFXcmd on Linux platform.
-
-### Tested on:
-
-* Debian 6 (i386)  
-* Raspbian on Raspberry Pi  
-* Python 2.7 (Does not work on Python 3)
 
 ### Install Python-serial
 
@@ -59,7 +52,7 @@ Looking for the idVendor in dmesg printout will show the usb info
     [508669.109221] usb 1-1.3: New USB device found, idVendor=0403, idProduct=6001
     $
 
-Then using the usb connector info "1-1.3″ we can find which device it has connected to.
+Then using the usb connector info "1-1.3″ (though yours will probably be different) we can find which device it has connected to.
 
     $ dmesg |grep '1-1.3'
     [508668.984325] usb 1-1.3: new full-speed USB device number 4 using dwc_otg
@@ -91,6 +84,7 @@ If you receive the status printout and list of all protocols, you can try to lis
 
 To use RFXcmd with all options and features you need to use the config.xml file to configure. But the basic functionality can be tested with the command above.
 
+----
 
 ## Thanks
 
