@@ -1,6 +1,10 @@
 # rfxcmd
 
-A forked version of https://github.com/ssjoholm/rfxcmd. The only change made is the addition of installation instructions to this readme. All credit for the actual functionality goes to [Sebastian Sjoholm](https://github.com/ssjoholm)
+A forked version of https://github.com/ssjoholm/rfxcmd.
+
+The only change made is the addition of installation instructions to this readme and restored the original docs as wiki pages here.
+
+All credit for the actual functionality goes to [Sebastian Sjoholm](https://github.com/ssjoholm)
 
 ## Description
 
